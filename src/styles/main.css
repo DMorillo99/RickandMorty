@@ -1,0 +1,32 @@
+html {
+  font-family: "lucida ", tahoma, verdana, arial, sans-serif;
+  font-size: 15px;
+  color: #141823;
+}
+
+.Footer{
+  background-color: #141823;
+  color: white;
+}
+@media (min-width: 900px) {
+  .GroupResponsiveCard {
+    float: left;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ToolBarMenu{
+    margin-bottom: 2%;
+  }
+}
+@media (max-width: 900px) {
+
+  .GroupResponsiveCard {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ToolBarMenu{
+    margin-bottom: 2%;
+  }
+}
+
